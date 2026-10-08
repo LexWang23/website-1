@@ -1,0 +1,54 @@
+* {
+    margin: 10px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+    padding: 12px;
+}
+
+div {
+    color: white;
+}
+
+.boxcontainer {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+}
+
+.blok {
+    background-color: cyan;
+    padding: 12px;
+    width: 300px;
+    height: 200px;
+    flex-grow: 10;
+}
+
+.blokA {
+    background-color: #FD5F56;
+}
+
+.blokB {
+    background-color: #FD835A;
+}
+
+.blokC {
+    background-color: #FDA160;
+}
+
+.blokD {
+    background-color: #03A987;
+}
+
+.blokE {
+    background-color: #12C2A2;
+}
+
+.blokF {
+    background-color: #2EDCBA;
+}

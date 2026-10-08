@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: black;
+    padding: 12px;
+}
+
+div {
+    color: white;
+}
+
+
+.layout {
+    display: flex;
+    gap: 12px;
+    height: 500px;
+}
+
+.links {
+    flex: 2;
+    display: flex;
+    flex-direction: column; 
+}
+
+.ondersterij {
+    flex: 1;
+    display: flex;
+    gap: 12px;
+    width: 100%;
+}
+
+.blok1 {
+    flex: 1;
+    margin-bottom: 10px;
+}
+
+.blok2{
+    flex: 1;
+}
+
+.blok3 {
+    flex: 1;
+}
+
+.blok4 {
+    flex: 1;
+}
+
+.blokA {
+    background-color: #FD5F56;
+
+}
+
+.blokB {
+    background-color: #03A987;
+
+}
+
+.blokC {
+    background-color: #12C2A2;
+
+}
+
+.blokD {
+    background-color: #FD835A;
+
+}

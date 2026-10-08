@@ -1,0 +1,27 @@
+.body {
+    background-color: #d9d9d9;
+}
+
+.article {
+   background-color: white;
+   border-radius: 8px;
+   padding: 32px;
+   width: 300px;
+   margin: 20px;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+}
+
+.label div {
+    display: inline;
+    padding: 8px;
+    border-radius: 4px;
+    background-color:aliceblue;
+}
+
+.content {
+    margin-bottem: 30px;
+}

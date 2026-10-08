@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 0, 0);
+    padding: 32px;
+}
+
+article {
+    background-color: white;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+article img {
+    width:100%;
+}
+
+article p {
+    font-size: 10px;
+}
+
+.label-a {
+    background-color: cyan;
+    width: 100px;
+    padding: 4px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.label-pink {
+    background-color: lightpink;
+}
+
+.button {
+    background-color: red;
+    width: 60px;
+    padding: 4px;
+    font-size: 20px;
+    border-radius: 10px;
+    href: url(https://hi.roc-nijmegen.nl/)
+}
