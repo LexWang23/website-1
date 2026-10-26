@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+body {
+    background-color: #0A1117;
+    color: white;
+}
+
+.header {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+}
+
+nav a[href="pinkgoose.html"],
+nav a[href="pinkgoose.html"]:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav a[href="pinkgoose.html"]:hover {
+    color: #ffb4d3;
+}
+
+nav a[href="pinkgoose-learn.html"],
+nav a[href="pinkgoose-learn.html"]:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav a[href="pinkgoose-learn.html"]:hover {
+    color: #ffb4d3;
+}
+
+nav a[href="pinkgoose-about.html"],
+nav a[href="pinkgoose-about.html"]:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav a[href="pinkgoose-about.html"]:hover {
+    color: #ffb4d3;
+}
+
+.logo .pink {
+    color: #ffb4d3;
+}
+
+nav a[href="pinkgoose-contact.html"],
+nav a[href="pinkgoose-contact.html"]:visited {
+    color: white;
+    text-decoration: none;
+}
+nav a[href="pinkgoose-contact.html"]:hover {
+    color: #ffb4d3;
+}
+
+.login {
+    font-size: 18px;
+    background-color: #243241;
+    width: 92px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.ready-for-projects {
+    font-size: 54px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 100px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+
+.dao {
+    width: auto;
+    background-color: #182632;
+    display: flex;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+    flex-direction: row;
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+    padding: 20px;
+}
+
+.dao-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.dao-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.superdao {
+    color: black;
+    background-color: #FFB4D3;
+    border-radius: 50px;
+    padding: 10px;
+    width: auto;
+    font-size: 20px;
+    margin-top: -25px;
+}
+
+.pink {
+    color: #FFB4D3;
+}
+
+.orange {
+    color: #E2AE49;
+}
+
+.purple {
+    color: #D387F7;
+}
+
+.blue {
+    color: #6BCEE6;
+}
+
+.dblue {
+    color: #1E8B9E;
+}
+
+.peach {
+    color: #E28F91;
+}
+
+.grey {
+    color: #505F6D;
+}
+
+.white-full-jouney {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.designed-full {
+    max-width: 1140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: "Lato", sans-serif;
+    justify-content: center;
+    font-size: 54px;
+    gap: 15px;
+}
+
+.tegels {
+    width: 1140px;
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat", sans-serif;
+    gap: 20px;
+    font-size: 22px;
+    margin: auto;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.icons {
+    width: 1140px;
+    display: flex;
+    margin-left: 193px;
+    justify-content: space-around;
+    font-family: "Montserrat", sans-serif;
+    margin: auto;
+}
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-box>img {
+    width: 160px;
+    height: 160px;
+    background-color: #121E29;
+    border-radius: 50px;
+    border: 2px solid #2A3744;
+    margin-bottom: 14px;
+}
+
+.image-box>p {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.work-with {
+    max-width: 1140px;
+    font-family: "Lato", sans-serif;
+    font-size: 54px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+.footer-socials {
+    display: flex;
+    margin: auto;
+    gap: 20px;
+    align-items: center;
+    background-color: #121E28;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 400px;
+}
+
+.footer-items {
+    display: flex;
+    gap: 45px;
+    margin-left: 440px;
+}
+
+.socials {
+    margin: 10px;
+}

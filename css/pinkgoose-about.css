@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0A1117;
+    color: white;
+}
+
+.header {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+.logo {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+nav {
+    display: flex;
+    gap: 24px;
+}
+
+nav a[href="pinkgoose-learn.html"],
+nav a[href="pinkgoose-learn.html"]:visited {
+    color: white;
+    text-decoration: none;
+}
+nav a[href="pinkgoose-learn.html"]:hover {
+    color: #ffb4d3;
+}
+
+nav a[href="pinkgoose.html"],
+nav a[href="pinkgoose.html"]:visited {
+    color: white;
+    text-decoration: none;
+}
+nav a[href="pinkgoose.html"]:hover {
+    color: #ffb4d3;
+}
+
+nav a[href="pinkgoose-about.html"],
+nav a[href="pinkgoose-about.html"]:visited {
+    color: white;
+    text-decoration: none;
+}
+nav a[href="pinkgoose-about.html"]:hover {
+    color: #ffb4d3;
+}
+
+nav a[href="pinkgoose-contact.html"],
+nav a[href="pinkgoose-contact.html"]:visited {
+    color: white;
+    text-decoration: none;
+}
+nav a[href="pinkgoose-contact.html"]:hover {
+    color: #ffb4d3;
+}
+
+.logo .pink {
+    color: #ffb4d3;
+}
+
+.login {
+    font-size: 18px;
+    background-color: #243241;
+    width: 92px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.blok-heroes {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroes {
+    font-family: "Montserrat", sans-serif;
+     font-weight: bold;
+     font-size: 54px;
+     display: flex;
+     justify-content: center;
+     margin: 150px;
+}
+
+.our-heroes {
+    display: flex;
+    flex-direction: row;
+    max-width: 1140px;
+    margin: 0% auto;
+    justify-content: center;
+    gap: 30px;
+}
+
+.the-heroes {
+    background-color: #FFB4D3;
+    width: 352px;
+    height: 334px;
+     color: black;
+     font-family: "Montserrat", sans-serif;
+     font-weight: bold;
+     padding: 10px;
+     padding-left: 20px;
+     border-radius: 25px;  
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column; 
+}
+
+.heroes-img {
+    display: flex;
+    justify-content: center;
+    margin: 0% auto;
+}
+
+.heroes-info {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.contact {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.weekly {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Lato", sans-serif;
+    background-color: #121E28;
+    width: 1140px;
+    height: 390px;
+    margin: auto;
+    border-radius: 20px;
+    border: 2px solid #2A3744;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.weekly-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 56px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.web3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    color: #647789;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.email-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 525px;
+    margin-top: 60px;
+}
+
+.email-box>form {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    margin: 0% auto;
+    gap: 20px;
+    justify-content: center;
+}
+
+.email {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #121E28;
+    width: 506px;
+    height: 68px;
+    border: 2px solid #2A3744;
+    color: white;
+    margin-left: -75px;
+    padding: 25px;
+    margin-top: -1px;
+
+}
+
+.subscribe {
+    background-color: #CEAAFF;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    height: 68px;
+    width: 175px;
+    margin-top: 60px;
+    font-size: 20px;
+    margin-top: -1px;
+}
+
+.sectionheader {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-bottom: 32px;
+    font-family: "lato", sans-serif;
+    width: 1140px;
+    margin: auto;
+    margin-bottom: 32px;
+    font-size: 25px;
+}
+
+.monserrat {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    color: #8395A7;
+    font-size: 22px;
+    align-items: flex-end;
+    font-weight: bold;
+}
+
+.presscontainer {
+    display: flex;
+    gap: 28px;
+    width: 1140px;
+    margin: auto;
+    justify-content: center;
+}
+
+.decrypt-logo {
+    width: 120px;
+    height: 40px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.blockworks-logo {
+    width: 140px;
+    height: 22px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.techcrunch-logo {
+    width: 159px;
+    height: 24px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.bg-blue {
+    background-color: #77E6FF;
+}
+
+.bg-pink {
+    background-color: #E2C1F9;
+}
+
+.bg-yellow {
+    background-color: #DBE268;
+}
+
+.blok {
+    padding: 28px;
+    flex: 1;
+    padding: 26px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    gap: 10px;
+    width: 361px;
+    height: 382px;
+}
+
+.blokcontent {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inhoud {
+    font-size: 22px;
+}
+
+.alinea2 {
+    font-size: 17px;
+}
+
+.read {
+    display: flex;
+    align-items: flex-end;
+    font-weight: bold;
+}
+
+.podcast-title {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 200px;
+    margin-bottom: 32px;
+}
+
+.see-all {
+    color: #8395A7;
+    font-weight: bold;
+    align-items: flex-end;
+    font-weight: bold;
+}
+
+.podcast {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    width: 1140px;
+    margin: auto;
+    justify-content: center;
+}
+
+.blok-podcast {
+    padding: 28px;
+    flex: 1;
+    padding: 12px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #121E28;
+    font-family: "Montserrat", sans-serif;
+    gap: 10px;
+    width: 361px;
+    height: 334px;
+    font-weight: bold;
+    border: 2px solid #2A3744;
+}
+
+.listen {
+    display: flex;
+    align-items: flex-end;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.podcast-image {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.credit {
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.credit2 {
+    color: #B9BBBD;
+    margin-left: 20px;
+}
+
+.credit2-andrew {
+    color: #B9BBBD;
+    margin-top: 20px;
+}
+
+.footer-socials {
+    display: flex;
+    margin: auto;
+    gap: 20px;
+    align-items: center;
+    background-color: #121E28;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 400px;
+}
+
+.footer-items {
+    display: flex;
+    gap: 45px;
+    margin-left: 440px;
+}
+
+.socials {
+    margin: 10px;
+}
