@@ -60,6 +60,7 @@ body {
 nav {
     display: flex;
     gap: 24px;
+    font-weight: bold;
 }
 
 nav a[href="pinkgoose.html"],
@@ -403,6 +404,7 @@ header {
     gap: 20px;
     justify-content: center;
 }
+
 /* er staat -75px, omdat die dan de email box groter maakt. */
 .email {
     font-family: "Montserrat", sans-serif;
@@ -655,6 +657,11 @@ header {
     color: #4D3705;
 }
 
+.telegram p:nth-child(2) {
+    color: #836204;
+    ;
+}
+
 .telegram-image {
     width: 52px;
     height: 52px;
@@ -694,6 +701,14 @@ header {
     margin-left: 10px;
 }
 
+.email-dao p:first-of-type {
+    color: #40354B;
+}
+
+.email-dao p:nth-child(2) {
+    color: #715F7F;
+}
+
 .footer-socials {
     display: flex;
     margin: auto;
@@ -718,4 +733,8 @@ header {
 
 .socials {
     margin: 10px;
+}
+
+.footer-items a:nth-child(3) {
+    color: #FFC803;
 }

@@ -29,6 +29,7 @@ body {
 nav {
     display: flex;
     gap: 24px;
+    font-weight: bold;
 }
 
 nav a[href="pinkgoose-learn.html"],
@@ -127,6 +128,15 @@ nav a[href="pinkgoose-contact.html"]:hover {
     flex-direction: row;
 }
 
+.telegram p:first-of-type {
+    color: #4D3705;
+}
+
+.telegram p:nth-child(2) {
+    color: #836204;
+    ;
+}
+
 .telegram-image {
     width: 52px;
     height: 52px;
@@ -164,6 +174,13 @@ nav a[href="pinkgoose-contact.html"]:hover {
     flex-direction: column;
     justify-content: center;
     margin-left: 10px;
+}
+.email-dao p:first-of-type {
+    color: #40354B;
+}
+
+.email-dao p:nth-child(2) {
+    color: #715F7F;
 }
 
 .post {
@@ -274,4 +291,8 @@ input {
 
 .socials {
     margin: 10px;
+}
+
+.footer-items a:nth-child(3) {
+    color: #FFC803;
 }

@@ -29,6 +29,7 @@ body {
 nav {
     display: flex;
     gap: 24px;
+    font-weight: bold;
 }
 
 nav a[href="pinkgoose-learn.html"],
@@ -420,4 +421,8 @@ nav a[href="pinkgoose-contact.html"]:hover {
 
 .socials {
     margin: 10px;
+}
+
+.footer-items a:nth-child(3) {
+    color: #FFC803;
 }
