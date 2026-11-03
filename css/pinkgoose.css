@@ -67,6 +67,7 @@ nav a[href="pinkgoose.html"]:visited {
     color: white;
     text-decoration: none;
 }
+
 nav a[href="pinkgoose.html"]:hover {
     color: #ffb4d3;
 }
@@ -76,6 +77,7 @@ nav a[href="pinkgoose-learn.html"]:visited {
     color: white;
     text-decoration: none;
 }
+
 nav a[href="pinkgoose-learn.html"]:hover {
     color: #ffb4d3;
 }
@@ -85,6 +87,7 @@ nav a[href="pinkgoose-about.html"]:visited {
     color: white;
     text-decoration: none;
 }
+
 nav a[href="pinkgoose-about.html"]:hover {
     color: #ffb4d3;
 }
@@ -94,6 +97,7 @@ nav a[href="pinkgoose-contact.html"]:visited {
     color: white;
     text-decoration: none;
 }
+
 nav a[href="pinkgoose-contact.html"]:hover {
     color: #ffb4d3;
 }
@@ -399,7 +403,7 @@ header {
     gap: 20px;
     justify-content: center;
 }
-
+/* er staat -75px, omdat die dan de email box groter maakt. */
 .email {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
@@ -415,8 +419,7 @@ header {
     color: white;
     margin-left: -75px;
     padding: 25px;
-    margin-top: -1px;
-
+    margin-top: -2px;
 }
 
 .subscribe {
@@ -435,7 +438,7 @@ header {
     margin-top: -1px;
 }
 
-.sectionheader {
+.section-header {
     display: flex;
     justify-content: space-between;
     margin-top: 12px;
@@ -456,7 +459,7 @@ header {
     font-weight: bold;
 }
 
-.presscontainer {
+.press-container {
     display: flex;
     gap: 28px;
     width: 1140px;
@@ -646,6 +649,10 @@ header {
     height: 84px;
     display: flex;
     flex-direction: row;
+}
+
+.telegram p:first-of-type {
+    color: #4D3705;
 }
 
 .telegram-image {
